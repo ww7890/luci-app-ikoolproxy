@@ -67,9 +67,6 @@ jobs:
           - arch: i386_pentium4
             sdk_url_path: https://downloads.openwrt.org/snapshots/targets/x86/generic
             sdk_name: -sdk-x86-generic_
-          - arch: x86_64
-            sdk_url_path: https://downloads.openwrt.org/snapshots/targets/x86/64
-            sdk_name: -sdk-x86-64_
 
     env:
       PACKAGE_NAME: luci-app-ikoolproxy
